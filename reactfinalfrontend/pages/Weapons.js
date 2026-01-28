@@ -1,4 +1,4 @@
-import React from "react";
+import Next from "next";
 import WeaponsComponent from ".../src/Components/ClassesComponents";
 import { Container, Form, FormControl } from "react-bootstrap";
 

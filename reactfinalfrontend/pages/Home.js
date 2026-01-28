@@ -1,4 +1,4 @@
-import React from "react";
+import Next from "next";
 import { Container, Button } from "react-bootstrap";
 
 const Home = () => {
