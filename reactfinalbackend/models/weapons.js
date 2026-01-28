@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const WeaponsSchema = new Schema ({
-    weaponsName: {
+    weaponName: {
         type: String,
         required: true,
     },
@@ -21,7 +21,7 @@ const WeaponsSchema = new Schema ({
     weaponType: {
         type: String,
         required: true,
-    },
+    }
 });
 
 module.exports = mongoose.model("weapons", WeaponsSchema);

@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const ClassesSchema = new Schema ({
-    ClassesName: {
+    className: {
         type: String,
         required: true,
     },
@@ -14,10 +14,10 @@ const ClassesSchema = new Schema ({
         type: Number,
         required: true,
     },
-    classesAlignment: {
+    classAlignment: {
         type: String,
         required: true,
     },
 });
 
-module.exports = mongoose.model("classes", ClassesSchema);
+module.exports = mongoose.model("classes", ClassSchema);

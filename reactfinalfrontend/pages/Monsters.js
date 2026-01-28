@@ -1,5 +1,5 @@
 import React from "react";
-import MonstersComponent from "../src/Components/ClassesComponents";
+import MonstersComponent from ".../src/Components/ClassesComponents";
 import { Container, Form, FormControl } from "react-bootstrap";
 
 const Monsters = () => {

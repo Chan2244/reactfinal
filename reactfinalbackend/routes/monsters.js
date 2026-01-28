@@ -9,4 +9,4 @@ router.get("/:id", MonstersController.getSingleMonster);
 
 router.post("/", MonstersController.createMonster);
 
-module.exports = router; 
+module.exports = router;

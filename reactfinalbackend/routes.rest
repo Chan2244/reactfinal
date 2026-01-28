@@ -1,52 +1,51 @@
-### get tooele tech function GET 
-http://localhost:3000/ttech HTTP/1.1
+### get tooele tech function 
+GET http://localhost:3500/ttech HTTP/1.1
 
-### get the root path GET 
-http://localhost:3000/ HTTP/1.1
+### get the root path 
+GET http://localhost:3500/ HTTP/1.1
 
-### get one class GET 
-http://localhost:3000/classes/6973b7c8612606e62b3d295f HTTP/1.1 ### 
+### get one class 
+GET http://localhost:3500/classes/6973b7c8612606e62b3d295f HTTP/1.1 ###
 
-### get all Classes
-get all calsses GET http://localhost:3000/classes HTTP/1.1
+### get all Classes get all calsses 
+GET http://localhost:3500/classes HTTP/1.1
 
-### create a class post 
-POST http://localhost:3000/classes HTTP/1.1 Content-Type: application/json
+### create a class post POST 
+http://localhost:3500/classes HTTP/1.1 Content-Type: application/json
 
-{
-"className": "wizard", 
-"hitpoints": 8, 
-"weath": 120,
- "classAlignment": "Any neutral"
+{ "className": "wizard", "hitpoints": 8, "weath": 120,
+
+"classAlignment": "Any neutral"
 }
 
 ### get all weapons 
-GET http://localhost:3000/weapons HTTP/1.1
+GET http://localhost:3500/weapons HTTP/1.1
 
 ### get one Weapon 
-GET http://loaclhost:3000/weapons/6973a5b6ca26067882e042f9 HTTP/1.1
+GET http://loaclhost:3500/weapons/6973a5b6ca26067882e042f9 HTTP/1.1
 
 ###Create a wepon 
-POST http://loaclhost:3000weappons HTTP/1.1 Content-Type: application/json {
+POST http://loaclhost:3400weappons HTTP/1.1 Content-Type: application/json {
 
 "weaponName": "longbow",
- "weaponDamage": "8", "weaponCost": "75"
- , "weaponClass": "ranged", 
+"weaponDamage": "8", 
+"weaponCost": "75" , 
+"weaponClass": "ranged",
  "weaponType": "piercing",
 }
 
 ### get all monsters 
-Get http://loaclhost:3000/monsters HTTP/1.1
+Get http://loaclhost:3500/monsters HTTP/1.1
 
 ### get one monster 
-Get http://loaclhost:3000/monsters/6973c018612606e62b3d296b HTTP/1.1
+Get http://loaclhost:3500/monsters/6973c018612606e62b3d296b HTTP/1.1
 
 ### Create a monster 
-Post http://localhost:3000/monsters HTTp/1.1 Content-Type: application/json {
+Post http://localhost:3500/monsters HTTp/1.1 Content-Type: application/json {
 
 "monsterName": "kobold",
- "monsterType": "humanoid",
-  "monsterClimet": "temperate", 
-  "monsterTerrain": "underground", 
-  "monsterXp": "100",
+"monsterType": "humanoid",
+"monsterClimet": "temperate", 
+"monsterTerrain": "underground", 
+"monsterXp": "100",
 }

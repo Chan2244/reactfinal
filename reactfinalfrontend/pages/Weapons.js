@@ -1,5 +1,5 @@
 import React from "react";
-import WeaponsComponent from "../src/Components/ClassesComponents";
+import WeaponsComponent from ".../src/Components/ClassesComponents";
 import { Container, Form, FormControl } from "react-bootstrap";
 
 const Weapons = () => {

@@ -15,4 +15,4 @@ routes.use("/auth", require("./auth"));
 routes.use("/monsters", require("./monsters"));
 //auth routes
 routes.use("/auth", require("./auth"));
-module.exports = routes; 
+module.exports = routes;
