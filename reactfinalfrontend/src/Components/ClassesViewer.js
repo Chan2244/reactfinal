@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { GetClassesById } from '.../API/ClassesApi';
+import { GetClassesById } from '..public/app/src/API/ClassesApi';
 import { Card, Col, Container, ListGrop, Row, Spinner } from 'react-bootstrap';
 import { sentenceCase } from 'change-case';
 import ClassesViewer from "../Components/ClassesViewer";

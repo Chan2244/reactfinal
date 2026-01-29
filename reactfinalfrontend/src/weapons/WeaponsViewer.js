@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { GetWeaponsById } from '.../API/WeaponsApi';
+import { GetWeaponsById } from 'public/app/src/API/WeaponsApi';
 import { Card, Col, Container, ListGrop, Row, Spinner } from 'react-bootstrap';
 import { sentenceCase } from 'change-case';
 import WeaponsViewer from "../Components/WeaponsViewer";
